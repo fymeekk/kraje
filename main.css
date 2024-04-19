@@ -1,0 +1,88 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#gora{
+    width: 100%;
+    height: 10%;
+    background-color: white !important;
+    position: absolute !important;
+    top: 0;
+    left:0;
+    box-shadow: 2px 10px 20px 0px rgba(242, 34, 51, 1);
+}
+#logo{
+    margin-left: 3%;
+}
+#zaloguj{
+    width: 10%;
+    height: 6%;
+    background-color: rgba(242, 34, 51, 1);
+    position:fixed !important;
+    top:2%;
+    right: 15%;
+    border-radius: 20px;
+    color: black;
+    transition: background-color 1s;
+}
+#zaloguj:hover{
+    background-color: rgb(89,8,15);
+    color:white;
+}
+#logowanie{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 110%;
+    margin-top: 10%;
+
+}
+#al{
+    color: black;
+    text-decoration: none;
+
+}
+#rejestracja{
+    width: 10%;
+    height: 6%;
+    background-color: rgba(242, 34, 51, 1);
+    position:fixed !important;
+    top:2%;
+    right:4%;
+    border-radius: 20px;
+    color: black;
+    transition: background-color 1s;
+}
+#rejestracja:hover{
+    background-color: rgb(89,8,15);
+    color:white;
+}
+#rejestrowaniesie{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 110%;
+    margin-top: 10%;
+
+}
+#ar{
+    color: black;
+    text-decoration: none;
+
+}
+#nawigacja{
+    justify-content: center;
+    height:300px;
+    width:100%;
+    margin-top:8%;
+    background-color: gray;
+
+}
+.zdj{
+    width: 20%;
+    height: 100%;
+    transition: box-shadow 1s;
+}
+.zdj:hover{
+
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
